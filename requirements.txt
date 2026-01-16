@@ -22,3 +22,8 @@ uvicorn==0.30.6
 python-dotenv==1.0.1
 pydantic-settings==2.5.2
 setuptools
+
+# --- LLM PROVIDERS ---
+langchain-openai==0.2.0    # Para compatibilidad (Groq la usa)
+langchain-groq==0.2.0      # <--- NUEVO: Para usar la API gratuita de Groq
+langchain-ollama==0.1.0    # <--- NUEVO: Para correr modelos localmente
